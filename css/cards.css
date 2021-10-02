@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+img {
+    max-width: 100%;
+}
+#grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+/*grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+column-gap: 30px;
+row-gap: 30px;
+margin: 30px;
+place-items: center;
+}
+
+.menu-item {
+    max-width: 300px;
+}
+.menu-item>img {
+    border-radius: 50%;
+}
